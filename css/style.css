@@ -1,0 +1,159 @@
+/* reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/* common css */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* header area */
+header{
+  width: 100%;
+  background: #000;
+}
+.topBannerWrapper {
+  max-width: 1125px;
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+.topBannerWrapper .logo{
+  font-size: 27px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  float: left;
+}
+.topBannerWrapper .logo .logoFirstname{
+  color: #fff;
+  font-weight: bold;
+}
+.topBannerWrapper .logo .logoLastname{ 
+  color: #ff8b38;
+}
+
+.topBannerWrapper .navbar{
+  float: right;
+  color: #fff;
+}
+.topBannerWrapper .navbar ul .item{
+  float: left;
+  font-size: 15px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin-left: 48px;
+  cursor:pointer;
+}
+.topBannerWrapper .navbar ul .item:nth-child(5){
+  margin-right: 6px;
+}
+.topBannerWrapper .navbar ul .item>a:hover{
+  color: #ccc;
+}
+main {
+  min-height: 642px;
+  width: 100%;
+  background: url(../img/HeaderPanel.png) no-repeat;
+  background-size: cover;
+}
+.contentWrapper {
+  max-width: 1125px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+}
+.content {
+  color: #fff;
+  width: 528px;
+}
+.content h1 {
+  padding-top: 92px;
+}
+.content h1 span:nth-child(1){
+  color: #fff;
+  font-size: 62px;
+  font-weight: bold;
+}
+.content h1 span:nth-child(2){
+  color: #ff8b38;
+  font-size: 62px;  
+}
+.content h2 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: normal;
+  padding-top: 4px;
+  margin-bottom: 40px;
+}
+.content .line {
+  width: 72px;
+  height: 4px;
+  background: #fff;
+  margin-bottom: 36px;
+}
+.content .button {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 15px 28px;
+  display: inline-block;
+  margin-top: 46px;
+  cursor: pointer;
+}
+
+/* content inputBanner */
+.contentWrapper .inputBanner {
+  position: absolute;
+  right: 10px;
+  top: 138px;
+}
+.contentWrapper .inputBanner .title {
+  padding: 21px 50px;
+  background: #f5f5f5;
+  font-size: 20px;
+  border-radius: 10px  10px 0px 0px;
+}
+.contentWrapper .inputBanner form {
+  background: #fff;
+  overflow: hidden;
+}
+.contentWrapper .inputBanner form input{
+  display: block;
+  outline: none;
+  border: none;
+  width: 282px;
+  height: 26px;
+  line-height: 26px;
+  border-bottom: 1px solid #d6d6d6;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36px;
+  text-indent: 15px;
+}
+.contentWrapper .inputBanner form .password {
+  margin-bottom: 50px;
+}
+.contentWrapper .inputBanner form input.userSubmit{
+  background: #ff8b38;
+}
+.contentWrapper .inputBanner .userSubmit {
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  background: #ff8b38;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0 0 10px 10px;
+}
