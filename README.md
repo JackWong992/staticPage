@@ -1,7 +1,7 @@
 # staticPage
 
 ## AXIT
-网站.png图片显示：https://i.loli.net/2018/07/14/5b493d8e9d8ce.png<br>
+(网站.png图片显示)[https://i.loli.net/2018/07/14/5b493d8e9d8ce.png]<br>
 网站预览:https://jackwong992.github.io/staticPage/AXIT/index.html<br>
 小总结：
 1. 尽量采用语义化命名类名<br>
