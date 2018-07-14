@@ -1,8 +1,8 @@
 # staticPage
 
 ## AXIT
-(网站.png图片显示)[https://i.loli.net/2018/07/14/5b493d8e9d8ce.png]<br>
-网站预览:https://jackwong992.github.io/staticPage/AXIT/index.html<br>
+[网站PNG图片显示](http://p8tsayr4m.bkt.clouddn.com/5b493d8e9d8ce.png)<br>
+[网站预览](https://jackwong992.github.io/staticPage/AXIT/index.html)<br>
 小总结：
 1. 尽量采用语义化命名类名<br>
 2. 第一版是采用 `float`和相对定位实现大致布局，这么做的目的是为了实现在大多数浏览器可以同样展示（第二次会使用`flex`进行页面重构）<br>
