@@ -188,7 +188,7 @@ section.social .social-logo {
   float: right;
 }
 section.social .social-logo .social-logo-wrapper {
-  margin-right: 22px;
+  margin-right: -2px;
 }
 section.social .social-logo .iconfont {
   font-size: 46px;
@@ -198,5 +198,297 @@ section.social .social-logo .iconfont {
   padding: 28px 0 ;
   margin-left: 50px;
 }
+ section.tabAdd {
+  height: 594px;
+  background: #f5f5f5;
+  width: 100%;
+}
+section.tabAdd>div {
+  border: 1px solid transparent;
+}
+section.tabAdd .tabInner {
+  width: 1110px;
+  height: 334px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 145px;
+  margin-bottom: 116px;
+}
+section.tabAdd .tabInner .tab{
+  text-align: center;
+  width: 110px;
+  height: 330px;
+  float: left;
+}
+section.tabAdd .tabInner li{
+  width: 110px;
+  height: 110px;
+  line-height: 110px;
+  background: #333;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  box-shadow: 1px 1px 9px 1px rgba(0,0,0,0.33);
+}
+section.tabAdd .tabInner li.active {
+  background: #ff8b3b;
+}
+section.tabAdd .tabInner li:nth-child(1) {
+  border-radius: 4px 4px 0 0 ;
+}
+section.tabAdd .tabInner li:nth-child(3) {
+  border-bottom: none;
+  border-radius: 0 0 4px 4px;
+}
+section.tabAdd .tab-text {
+  float: left;
+  width: 430px;
+  margin-left: 114px;
+}
+section.tabAdd .tab-img {
+  float: left;
+  height: 300px;
+  width: 200px;
 
+} 
+section.tabAdd .tab-text .article-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+section.tabAdd .tab-text .article-content {
+  font-size: 12px;
+  color: #c2c3c4;
+  text-align:justify;
+}
+section.tabAdd .tab-text .article-footer {
+  margin-top: 12px;
+  margin-bottom: 25px;
+  font-size: 12px;
+  color: #c2c3c4;
+  text-align:justify;
+}
+section.tabAdd .tab-text a {
+  padding: 15px 24px;
+  color: #fff;
+  background: #ff8b38;
+  font-weight: bold;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #ccc;
+}
+section.tabAdd .tab-img {
+  float: right;
+  width: 320px;
+  height: 253px;
+  background: url(https://i.loli.net/2018/07/16/5b4c88a65a4e3.png) no-repeat center center;
+  margin-top: 67px;
+}
+section.sublist {
+  overflow: hidden;
+}
+section.sublist .wrapper {
+  width: 1100px;
+  height: 365px;
+  margin: 108px auto 125px auto;
+}
+section.sublist .wrapper .image {
+  float: left;
+  background: url(https://i.loli.net/2018/07/16/5b4c9c12e972a.png) no-repeat ;
+  width: 525px;
+  height: 375px;
+}
+section.sublist .wrapper .section {
+  float: right;
+  width: 396px;
+  height: 360px;
+  margin-left: 130px;
+}
+section.sublist .wrapper .section .title {
+  font-size: 21px;
+  font-weight: bold;
+} 
+section.sublist .wrapper .section .line {
+  width: 65px;
+  height: 4px;
+  background: #ff8b38;
+  margin-top: 28px;
+  border-radius: 3px;
+  margin-bottom: 24px;
+}
+section.sublist .wrapper .section .text {
+  text-align: justify;
+  color: #a9aaac;
+}
+section.sublist .wrapper .section .footer {
+  width: 398px;
+  height: 96px;
+  margin-top:32px;
 
+}
+section.sublist .wrapper .section .iconfont {
+  float: left;
+  border: 1px solid red;
+  font-size: 24px;
+}
+section.sublist .wrapper .section .icon-download ,
+section.sublist .wrapper .section .icon-shangchuan {
+    float: left;  
+    color: #ff8b38;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-left: 6px;
+    padding-top: 3px;
+    font-size: 24px;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+section.sublist .wrapper .section .upload {
+  float: right;
+}
+section.sublist .wrapper .section .upload .content {
+  width: 323px;
+  height: 60px;
+  color: #ccc;
+  text-align: justify;
+}
+section.standard {
+  width: 100%;
+  background: #f5f5f5;
+}
+section.standard .content-wrapper{
+  width: 1150px;
+  height: 309px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 94px;
+  padding-bottom: 425px;  
+}
+section.standard .content-wrapper .content{
+  color: #212121;
+  float: left;
+}
+section.standard .content-wrapper .content .title{
+  font-size: 22px;
+  margin-bottom: 26px;
+  font-weight: bold;
+}
+section.standard .content-wrapper .content .line{
+  height: 0;
+  border: 1px solid #ff8b38;
+  border-radius: 1px
+}
+
+section.standard .content-wrapper .content .text{
+  margin-bottom: 24px;
+  color: #c2c3c4;
+  font-size: 12px;
+}
+section.standard .content-wrapper .content .footer{
+  color: #c2c3c4;
+  font-size: 12px;
+}
+section.standard .content-wrapper .img {
+  width: 525px;
+  height: 375px;
+  float: right;
+  background:url(https://i.loli.net/2018/07/21/5b533fc51a29d.png) no-repeat;
+  margin-top: -24px;
+}
+section.pricing {
+  background: #f4f4f4;
+  width: 100%;
+}
+section.pricing .header{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 108px;
+  text-align: center;
+  
+}
+section.pricing .header .title{ 
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+section.pricing .header .line {
+  width: 64px;
+  height: 0;
+  border-top: 2px solid #ff8b38;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 26px;
+}
+section.pricing .header .footer {
+  margin-bottom: 78px;
+  color: #85878A;
+  font-size: 12px;
+}
+section.pricing ul {
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.pricing ul .li-wrapper {
+  margin-right: -6px;
+  padding-bottom: 98px;
+}
+section.pricing ul li {
+  float: left;
+  width: 342px;
+  background: #fff;
+  margin-right: 32px;
+  margin-top: 5px;
+}
+section.pricing ul li:nth-child(2) {
+  margin-top: -30px;
+}
+
+section.pricing ul li .classification {
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  color: #fff;
+  background: #323232;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+section.pricing ul li .pay {
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+  background: #333333;
+}
+section.pricing ul li .pay .payDate {
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #ccc;
+}
+section.pricing ul li .pay .tip {
+  display: block;
+  background: #F98A37;
+  width: 100%;
+  height: 5px;
+}
+section.pricing ul li .pay .tip.sec {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+section.pricing ul li .item .item-desc {
+  color: #86878A;
+  border-bottom: 2px solid #f5f5f5;
+  background: #fff;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
