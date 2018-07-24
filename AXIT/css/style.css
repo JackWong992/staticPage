@@ -397,6 +397,81 @@ section.standard .content-wrapper .img {
   background:url(https://i.loli.net/2018/07/21/5b533fc51a29d.png) no-repeat;
   margin-top: -24px;
 }
+section.awesome {
+  background: #fff;
+  width: 100%;
+}
+section.awesome .header {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 108px;
+  text-align: center;
+}
+section.awesome .header .title{ 
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+section.awesome .header .line {
+  width: 64px;
+  height: 0;
+  border-top: 2px solid #ff8b38;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 26px;
+}
+section.awesome .header .footer {
+  margin-bottom: 78px;
+  color: #85878A;
+  font-size: 12px;
+}
+section.awesome .type-wrapper  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 104px;
+}
+
+section.awesome .type-wrapper .type {
+  width: 314px;
+  float: left;
+  margin-left: 50px;
+}
+
+section.awesome .type-wrapper .iconfont{
+  display: inline-block;
+  font-size: 30px;
+  padding: 20px;
+  color: #F98A39;
+  border: 3px solid #F98A39;
+  border-radius: 50%;
+  margin-bottom: 24px;
+  margin-left: 118px;
+}
+section.awesome .type-wrapper .title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 6px 0 ;
+  color: #333;
+}
+section.awesome .type-wrapper .text {
+  font-size: 12px;
+  color: #8888;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 section.pricing {
   background: #f4f4f4;
   width: 100%;
