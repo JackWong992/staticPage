@@ -401,17 +401,20 @@ section.awesome {
   background: #fff;
   width: 100%;
 }
+section.customers .header,
 section.awesome .header {
   margin-left: auto;
   margin-right: auto;
   padding-top: 108px;
   text-align: center;
 }
+section.customers .header .title,
 section.awesome .header .title{ 
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 28px;
 }
+section.customers .header .line,
 section.awesome .header .line {
   width: 64px;
   height: 0;
@@ -420,6 +423,7 @@ section.awesome .header .line {
   margin-right: auto;
   margin-bottom: 26px;
 }
+section.customers .header .footer,
 section.awesome .header .footer {
   margin-bottom: 78px;
   color: #85878A;
@@ -460,17 +464,6 @@ section.awesome .type-wrapper .text {
   color: #8888;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 section.pricing {
   background: #f4f4f4;
@@ -566,4 +559,91 @@ section.pricing ul li .item .item-desc {
   text-align: center;
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+section.customers {
+  width: 100%;
+  background: #fff;
+  max-width: 1125px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.customers  .message-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 74px;
+
+}
+
+section.customers  .message-wrapper .message{
+  margin-top: -16px;
+  width: 268px;
+  padding-bottom: 100px;
+  float: left;
+  
+}
+section.customers .message-wrapper .message .text {
+  width: 262px;
+  padding: 20px 39px 12px 18px;
+  background: #f5f5f5;
+  font-size: 12px;
+  margin-bottom: 26px;
+  text-align: left;
+  border-radius: 3px;
+  position: relative;
+}
+section.customers .message-wrapper .message .text::after {
+  content: '';
+  width: 0px;
+  height: 0px;
+  border: 12px solid transparent;
+  border-top-color: #f5f5f5;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 24px;
+}
+section.customers .message-wrapper .message .avatar{
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: url(../css/avatar_2_u231.png) no-repeat center center;
+  float: left;
+  margin-left: 12px;
+}
+section.customers .message-wrapper .message .peo-say {
+  float: left;
+  margin-left: 23px;
+}
+section.customers .message-wrapper .message .peo-say .f-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+section.customers .message-wrapper .message .peo-say .l-name {
+  font-size: 14px;
+  color: #ccc;
+}
+section.axure-design .header {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 108px;
+  text-align: center;
+}
+section.axure-design .header .title{ 
+  font-size: 28px;
+  margin-bottom: 28px;
+}
+section.axure-design .header .line {
+  width: 64px;
+  height: 0;
+  border-top: 2px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 26px;
+}
+section.axure-design .header .footer {
+  margin-bottom: 78px;
+  color: #85878A;
+  font-size: 12px;
 }
